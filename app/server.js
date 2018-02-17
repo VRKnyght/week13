@@ -14,8 +14,8 @@ app.use(bodyParser.json());
 // =====================================================
 // ============Routes===================================
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routing/apiRoutes.js")(app);
+require("./routing/htmlRoutes.js")(app);
 
 
 // =====================================================
